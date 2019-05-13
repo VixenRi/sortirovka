@@ -10,13 +10,10 @@ public class Main {
 
         int[] array = CreateRandMass(100,MainPanel);
 
-        //Необходимо проверить скорость работы
-        //разных алгоритмов сортировки(вставки, быстрой, пузырьком,выборкой)
-        //Для измерения времени используем nanoTime()
-        //Сохраняем время на старте
+   
         long start = System.nanoTime();
 
-        //Делаем сортировку
+       
         int[] sortedArr = BubbleSort(array);
 
         long end = System.nanoTime() - start;
